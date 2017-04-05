@@ -17,6 +17,10 @@ pipeline {
           "Code Coverage": {
             sh 'echo "code quality check"'
             
+          },
+          "Security check": {
+            sh 'echo "I care about security"'
+            
           }
         )
       }
